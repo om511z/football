@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="nsyl_3.css">
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <div class="head">
+                 <h1>Om Soccer League</h1>
+            </div>
+        </div>
+        <div class="block1">
+            <h2>ABOUT </h2>
+  
+        </div>
+            <div class="extra-information">
+                <h2><a href="game_info.html">Game Information</a></h2>
+                <h2><a href="rules.html">Rules of Play & Policies</a></h2>
+            </div>
+    </header>
+
+     <main>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a id="white">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div id="registration-form">
+            <h2><a href="registration.html">Registration Form</a></h2>
+        </div>
+        <div class="main-content1">
+            <form action="show_data.html" method="GET">
+                <h2>Registration Form</h2>
+                <div id="form">
+                    <div>
+                        <label>Player's First Name:<input type="text" class="border" name="Name"></label>
+                        <label id="lastname">Last Name:<input type="text" class="border" name="LastName"></label>
+                    </div>
+                    <div>
+                        <label>Street Address:<input type="text" class="address-border" name="Address"></label>
+                    </div>
+                    <div>
+                        <label>City:<input type="text" id="city-border" name="City"></label>
+                        <label id="zipcode">Zip Code:<input type="text" class="border" name="Zip Code"></label>
+                    </div>
+                    <div id="birthdate-gender">
+                        <label>Birth Date:<input type="date" class="birth-border-date" name="Birth Date"></label>
+                        <label id="gender">Gender: Female:<input type="radio" name="Sex" value="Female"></label>
+                        <label>Masculine:<input type="radio" name="Sex" value="Masculine"></label>
+                    </div>
+                    <div>
+                        <label>Grade:</label>
+                        <select id="border-grade" name="Grade">
+                            <option value="Pre-School">Pre-School</option>
+                            <option value="1st">1st:</option>
+                            <option value="2nd">2nd:</option>
+                            <option value="3rd">3rd:</option>
+                            <option value="4th">4th:</option>
+                            <option value="5th">5th:</option>
+                        </select>
+                    </div>
+                    <h3>Which elementary school do you live near?</h3>
+                    <p><strong>Closest School:</strong></p>
+                    <div>
+                        <select id="closest-school" name="Closest School">
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary </option>
+                            <option value="South Elemenary">South Elementary </option>
+                        </select>
+                    </div>
+                    <h3>What position(s) do you normally play? (check all that apply)</h3>
+                    <div id="position-played">
+                        <div>
+                            <label><input type="checkbox" name="Position Normally Played" value="Forward">Forward</label>
+                            <label><input type="checkbox" name="Position Normally Played" value="Defense">Defense</label>
+                        </div>
+                        <div>
+                            <label><input type="checkbox" name="Position Normally Played" value="Midfield">Midfield</label>
+                            <label><input type="checkbox" name="Position Normally Played" value="Goalkeeper">Goalkeeper</label>
+                        </div>
+                    </div>
+                    <h3>Uniform Size</h3>
+                    <div>
+                        <select id="uniform-size" name="Uniform Size">
+                            <option value="Youth Small">Youth Small</option>
+                            <option value="Youth Medium">Youth Medium</option>
+                            <option value="Youth Large">Youth Large</option>
+                            <option value="Youth Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</Option>
+                            <option value="Extra Large">Extra Large</option>
+                        </select>
+                    </div>
+                </div>
+                <h3>Permission to Play:</h3>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities, which transportation</p>
+                <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                <label>Parent/GuardianSignature: <input class="permission-date" type="text" name="Parent/GuardianSignature:"></label>
+                <label>Date:<input type="date" class="birth-border-date" name="Date"></label>
+                <input id="button" type="submit" value="Submit">
+            </form>
+        </div>
+    </main> 
+</body>
+</html>

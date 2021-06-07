@@ -1,0 +1,396 @@
+body{
+    background: url(img/estadium1.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.head-container {
+    height: 50px;
+    background-color: #1a0139;
+    background-size: cover;
+    margin-top: -27px;
+    margin-left: -8px;
+    width: 102%;
+}
+
+#head {
+    position: absolute;
+    height: 120px;
+    width: 220px;
+    margin-top: 122px;
+    margin-left: 105px;
+    background: url(img/design1_image1.jpg);
+    background-size: contain;
+}
+
+.head h1 {
+    font-size: 39px;
+    font-style: italic;
+    font-family: emoji;
+    color: #b4b4b4;
+    padding-left: 10px; ;
+}
+
+.extra-information {
+    display: inline-flex;
+    float: right;
+    margin-top: -400px;
+    margin-right: 280px;
+    
+}
+
+.extra-information>h2 {
+    padding: 8px;
+    border-style: solid;
+    margin: 10px;
+    font-family: system-ui;
+    font-weight: lighter;
+    border-width: thin;
+    color: white;
+}
+
+h2>a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    height: 200px;
+    margin-top: -328px;
+    right: 8px;
+}
+
+.block {
+    
+    background: url(img/design2_image1.jpg);
+    background-size: contain;
+    width: 220px;
+    height: 120px;
+    font-size: 0;
+    margin-top: 280px;
+    margin-left: 145px;
+}
+
+.block1 {
+    width: 220px;
+    height: 120px;
+    font-size: 0;
+    margin-top: 280px;
+    margin-left: 145px;
+}
+
+.nav-menu {
+    background-color: rgb(48 16 48);
+    padding-left: 10px;
+    text-decoration: none;
+    
+    position: absolute;
+    right: 240px;
+    top: -6px;
+}
+
+li {
+    display: inline;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-right: 10px;
+    font-family: system-ui;
+}
+
+li a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+#white {
+    color: white;
+    
+    text-decoration: line-through;
+}
+
+#registration-form{
+    display: inline-flex;
+    float: left;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+#registration-form h2 a{
+    padding: 45px;
+    border-style: solid;
+    font-family: system-ui;
+    font-weight: 400;
+    border-width: thin;
+}
+
+.main-content {
+    height: 1000px;
+    width: 55%;
+    background-color: #1a0139;
+    float: right;
+    margin-right: 228px;
+    margin-top: -330px;
+    background-size: cover;
+    color: white;
+}
+
+.main-content-information{
+    height: 760px;
+    width: 55%;
+    background-color: #1a0139;
+    float: right;
+    margin-right: 228px;
+    margin-top: -330px;
+    background-size: cover;
+    color: white;
+}
+
+.main-content1 {
+    height: 1100px;
+    width: 55%;
+    background-color: white;
+    float: right;
+    margin-right: 228px;
+    margin-top: -330px;
+    background-size: cover;
+    color: black;
+    
+}
+
+div h2,h3,p,label{
+    font-family: system-ui;
+}
+form {
+    padding: 56px;
+    text-align: justify;
+    
+}
+
+.border{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-color: black;
+    border-width: 1px;
+    outline: none;
+    width: 186px;
+}
+
+#border-grade {
+    border: 0cm;
+    outline: none;
+    width: 90px;
+}
+
+.birth-border-date{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+}
+
+#birthdate-gender label{
+    line-height: 40px;
+}
+
+.address-border{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-color: black;
+    border-width: 1px;
+    outline: none;
+    width: 510px;
+}
+
+#lastname{
+    margin-left: 20px
+}
+
+#city-border{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-color: black;
+    border-width: 1px;
+    outline: none;
+    width: 300px;
+}
+
+#grade label{
+    margin-right: 20px;
+}
+
+#zipcode{
+    margin-left: 10px;
+}
+
+#gender{
+    margin-left: 115px;
+}
+
+#closest-school{
+    border: 0cm;
+    outline: none;
+    width: 120px;
+    
+}
+
+#position-played{
+    display: flex;
+}
+
+#position-played div label{
+    display: block;
+    padding-right: 2cm;
+    
+}
+
+#uniform-size{
+    border: 0cm;
+    outline: none;
+    width: 100px;
+}
+
+.permission-date{
+    border-top: 0cm;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-color: black;
+    border-width: 1px;
+    outline: none;
+    width: 180px;
+}
+
+#content {
+    padding-left: 50px;
+    line-height: 22px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    font-family: system-ui;
+    color: white;
+    margin-top: 18px;
+       
+}
+
+#content h1,h2,h4 {
+    text-align: center;
+    line-height: 15px;
+    
+}
+
+#content p{
+    font-family: system-ui;
+    font-size: small;
+}
+
+#content li{
+    font-size: smaller;
+}
+
+#bullet-list1,#bullet-list2 li{
+    display: list-item;
+    list-style-type: square;
+    padding-left: 0%;
+    margin-bottom: -30px;
+    margin-top: -12px;
+}
+
+#number-list li{
+    display: list-item;
+    padding-left: 1%;
+    list-style: decimal;
+    line-height: 23px;
+    margin-left: -45px;
+}
+
+#letter-list li {
+    display: list-item;
+    list-style: lower-alpha;
+    padding-left: 8px;
+}
+
+#circle-list li {
+    display: list-item;
+    list-style: circle;
+}
+
+#underline {
+    text-decoration: underline;
+
+}
+table{
+    margin-top: 25px;
+
+}
+
+tr th,td {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+
+.phone-email{
+    margin-right: 5px;
+}
+
+#email p{
+    display: inline-flex;
+    margin-right: 180px;
+}
+
+#button{
+    width: 3cm;
+    height: 1.5cm;
+    float: right;
+    margin-top: 1cm;
+    font-weight: bold;
+    background: none;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    outline: none;
+}
+
+.maps{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: -200px;
+}
+
+.maps section div{
+    font-family: system-ui;
+    font-weight: lighter;
+}
+
+.maps section{
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+}
+
+iframe{
+    height: 100px;
+    width: 200px;
+    border: none;
+}
+
+.school{
+    display: flex;
+    width: 190%;
+}
+
+.school div{
+    display: inline-block;
+    width: 50%;
+}
+
+.school1 h3 p{
+    text-align: left;
+    line-height: 50px;
+}
+
+.bold{
+    font-weight: 500;
+}
